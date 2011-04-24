@@ -14,11 +14,13 @@ Source0:    http://www.cpan.org/modules/by-module/Geo/%{upstream_name}-%{upstrea
 BuildRequires: perl(HTML::Entities)
 BuildRequires: perl(HTML::Template::Pluggable)
 BuildRequires: perl(JSON)
+BuildRequires: perl(JSON::Any)
 BuildRequires: perl(Math::Trig)
 BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Test::JSON)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Differences)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
