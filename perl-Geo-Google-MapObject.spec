@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Release:	6
 
 Summary:	Managing the server side of Google Maps API
 License:	GPL+ or Artistic
